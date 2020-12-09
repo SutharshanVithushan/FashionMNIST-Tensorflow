@@ -16,10 +16,11 @@ import random
 ################
 
 #Print Tensorflow Version
-print(tf.__version__)
+print(tf.version.VERSION)
 
 
 #Use fashion MNIST dataset
+tf.keras.datasets.fashion_mnist
 fashion_mnist = tf.keras.datasets.fashion_mnist
 
 #Training Variables
@@ -185,7 +186,7 @@ plt.show()
 #Finally , lets use the trained model to make a prediction about a single image
 
 #Grab an image from the test dataset
-img = test_images[12]
+img = test_images[10]
 print(img.shape)
 
 #Keras models are optimised to make predctions on a batch.
