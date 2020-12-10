@@ -2,6 +2,8 @@
 # https://www.tensorflow.org/tutorials/keras/classification
 #
 
+# Change this files' name to something other than Tensorflow or it will mess up with the libraries
+
 #Tensorflow Library
 import tensorflow as tf
 
